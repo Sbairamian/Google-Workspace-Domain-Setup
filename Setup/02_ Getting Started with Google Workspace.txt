@@ -1,0 +1,32 @@
+﻿Getting Started with Google Workspace
+
+
+1. Connect Google Workspace with Custom Domain
+
+- Now, a Getting Started page will show (Ref. Getting_Started.jpg)
+- Google will ask to verify the domain.  Click on “Protect”. Click on “Sign in to Verify”.  Google will provide a TXT record to add to your domain’s DNS settings.
+- Sign in to the registrar.  It will automatically input the TXT record that needs to be inserted on the registrar website.
+- Click on “Authorize” to connect with the domain.
+- Wait for about 5 minutes while Google verifies and connects the domain to Google Workspace.
+- In case this doesn’t work, this is what will need to be done.
+	a. Log into your domain registrar’s website and add the TXT record as instructed.
+	b. Once added, return to the Google Workspace setup and click “Verify".
+
+2. Add Users (Optional)
+
+- Next it will ask to create users.
+- Click on “Create”. 
+- Enter the user’s name, username, and follow the prompts to create their account.
+- Create as many users as need to be created.
+- Click on “Continue”
+
+3. Activate Email Accounts
+
+- Now it’s time to set up the email accounts.
+- Click on Activate on the Getting Started Menu (Ref. Activate_Gmail.jpg)
+- Click on “I’m Ready to Activate Gmail”.
+- Click on “Sign in to Activate”
+- Sign in to the registrar.  It will automatically input the MX record that needs to be inserted on the registrar website.
+- Click on “Authorize” to connect with the domain.
+- Wait for about 5 minutes while Google verifies and connects the domain to Google Workspace.
+- Once the email is connected to the domain. Congratulations! Google Workspace account is set up.

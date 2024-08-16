@@ -1,0 +1,22 @@
+﻿Setting up Google Workspace account
+
+
+1. Getting Started with Basic Info
+
+- Open the web browser and go to the Google Workspace (https://workspace.google.com/) website.
+- Click on the "Start a Trial" button for the free trial.
+- Follow the prompts to enter the business name, number of employees, and country.
+- Click Next. Enter first and last name. Provide a current email address (this can be a personal email or an existing business email).
+
+2. Set Up Business Domain
+
+- Click “Next”. Choose "Yes, I have one I can use" if you already have a domain, or "No, I need one" to purchase a domain through Google.
+- Follow the prompts to verify the domain if you already have one or to complete the purchase if you are buying a new domain (Other places to buy a domain can be GoDaddy, Squarespace, or any other registrar website)
+- Enter the desired username and password for the new Google Workspace account with the domain name. This will be the primary admin account.
+- Review and agree to the terms and conditions and click “Agree and Continue”
+
+3. Choosing Payment Plan
+
+- It will ask to verify the account through a phone number, so input a phone number and input the code.
+- It will go over the payment plan.  There is a 14 day trial that can be used with the account.
+- Choose the payment plan and enter payment info.
