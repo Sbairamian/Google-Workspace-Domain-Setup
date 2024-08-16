@@ -1,0 +1,61 @@
+﻿Changing Primary Domains
+
+
+Summary: This document explains how to change your primary domain.  To do this, you will need to have purchased that additional domain.
+
+
+1. Add and Verify Secondary Domain
+
+- Login as admin on Google Workspace account.
+- Go to the Accounts tab on the right → Domains → Manage Domains
+- Click on “Add a Domain”
+- Make sure “Secondary Domain” is chosen. Type the new Domain name.
+- Go through the process of Google verifying the domain by adding the TXT records and activating the Gmail accounts just like how it was done for the first domain.
+
+
+2. Update Users and Add New Domain
+
+- From the Google Admin page, go to Directory → Users
+- Click on the user that needs their email switched. 
+- Click on “Update User”.  Change the email from the drop-down to the new domain name. This will change the user’s alternate email to what was the old domain name.
+- Change every user’s primary account to the new email address.  
+-  Sent a test email to new domain from a different email. 
+
+
+3. Change Group Email Primary Domain
+
+- Now the email address of groups will have to be changed.
+- Go to the Groups tab under the Directory menu.
+- Click on the Group name.
+- Under Group Information, click on the Down arrow (Ref. Group_Information.jpg)
+- Edit it and change the domain to match the new domain name.
+
+
+4. Changing the Primary Domain
+
+- Now it is time to change the secondary domain into the primary domain.
+- From the Admin homepage, click on Account → Domains → Manage Domains.
+- Click “Deactivate” where it says Test domain alias (Ref. Deactivate_Test_Alias.jpg)
+- Click on “Change Primary Domain”
+- Click on “Continue”. Type in the name of the domain that you want to switch to.
+- Click “Change Primary Domain”
+- It will take time for the primary domain to change.  
+- When done, reactivate the test domain alias.
+
+
+5.  Erase Alternative Email and Erase Old Domain (Optional)
+
+Note: Follow these steps if you intend to delete the old Domain. If you want to keep the secondary domain separate, then skip this.
+- Go to “Add Alternate Emails”
+- Delete the old account by clicking on the “X” (Ref. Erase_Alternate_Email)
+- Click “Save”
+- Go to every other user and do the same thing.
+- Under Admin Console, go to Account → Domains → Manage Domains.
+- Click on “Remove” and the domain will be removed (make sure test domain alias is deactivated or the domain won’t delete)
+
+
+6. Make sure new domain works
+
+- Send a test email FROM new domain to one of your emails to make sure it sends emails.
+- If the email is received.  From another account, send the new domain an email.
+- If the email is received on the new domain, then everything is set up.

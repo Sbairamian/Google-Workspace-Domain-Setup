@@ -1,0 +1,33 @@
+﻿Adding DKIM Records
+
+
+Summary: This documentation covers how to add DKIM records for Google Workspace.
+
+
+1. Adding DKIM records
+
+- Sign on to Google Workspace Account.
+- In the Admin console, go to Menu → Apps→ Google Workspace → Gmail.
+- Click "Authenticate email".
+- Click the "Generate New Record" button. It will ask to choose  2048 or 1024 bit key length. If domain can do 2048 bit key length, it is preferred because it is more secure.
+- It will also ask for a prefix selector.  Don’t change it unless domain uses dkim key with prefix selector google.  Otherwise, keep it the same.
+- Click "Generate". It will generate a DKIM.
+
+2. Log in to Domain Registrar
+
+- Log in to Domain Registrar
+- Go to Domain section and click on DNS settings.
+- Click on Add Record.
+- For name, put in DNS_HOST name.
+- For type of record, choose txt.  
+- Paste in the DKIM record provided by the Google, and and click “Save”.
+
+
+3. Authenticate DKIM record
+
+
+- Go back to Google workspace admin account.
+- Go to Menu → Apps→ Google Workspace → Gmail.
+- Click Authenticate email.
+- And now click Start Authentication. 
+- It may take up to 48 hours for DNS changes to fully propagate.

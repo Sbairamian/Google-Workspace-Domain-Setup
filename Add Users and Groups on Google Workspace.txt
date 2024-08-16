@@ -1,0 +1,29 @@
+﻿Add Users and Groups on Google Workspace
+
+Summary- This Documentation covers how to add new users and groups in Google Workspace.
+
+
+1. Add Users
+
+
+- Log in to Google Worksapce admin console.
+- On the admin console, go to Directory → Users
+- Click on “Add new user”
+- Fill in the required areas, and choose the domain that email will be created in.
+- Click on “Add New User”.
+- A new user has been created.
+- Repeat for as many users needed.
+
+
+
+
+2. Add Groups
+
+
+- On the admin console, go to Directory → Group
+- Click on “Create Group”
+- Fill in the required information including the domain the group email will be created in. (Optional- Group Description and group owner can be filled out. )
+- Click on “Next”. Click and choose preferred group settings.
+- The group has been created.  Click “Add members to… “ (ref. Add_Members.jpg)
+- Type in the user and click “Add to Group”
+- Continue adding until all users have been added to the group.
