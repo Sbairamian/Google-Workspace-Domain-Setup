@@ -17,7 +17,7 @@ How to create a Google Workspace Account and link a domain to that Google Accoun
 
 # 1. Setup
 
-Please start with Setup folder first.  Then choose any file to follow after.
+Please start with Setup folder first.  After setup, you can choose any file to follow afterward.
 
 Setup involves the following steps:
 
